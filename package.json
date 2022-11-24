@@ -2,6 +2,10 @@
   "name": "deno-import-npm",
   "displayName": "Deno import NPM",
   "description": "Helps import npm packages into deno",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kylejreed/vscode-deno-import-npm"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.73.0"

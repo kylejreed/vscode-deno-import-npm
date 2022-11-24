@@ -10,3 +10,19 @@ Deno NPM Import helps easily import npm modules and cache them. Very useful for 
 ## Requirements
 
 This extension assumes you are working in [Deno](https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno). 
+
+## Contribute
+We appreciate your help!
+
+To build the extension locally, clone this repository and run the following steps:
+
+Open this folder in VS Code.
+Run npm i.
+Run the Launch Client launch task from the VSCode debug menu.
+After making changes to the extension you can use the restart button in the VSCode debug menu, this makes a new build and reloads the client.
+
+Note that if you already have the deno extension installed from the VSCode Marketplace, it will be replaced for the Launch Client instance only. So there's no need to uninstall your existing Deno extension.
+
+
+## License
+[The MIT License](https://github.com/kylejreed/vscode-deno-import-npm/blob/main/LICENSE.md)
