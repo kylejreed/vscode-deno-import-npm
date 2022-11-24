@@ -2,6 +2,12 @@
   "name": "deno-import-npm",
   "displayName": "Deno import NPM",
   "description": "Helps import npm packages into deno",
+  "keywords": [
+    "deno",
+    "import",
+    "npm",
+    "modules"
+  ],
   "publisher": "kylejreed",
   "repository": {
     "type": "git",
@@ -35,7 +41,7 @@
     "commands": [
       {
         "command": "deno-import-npm.add-package",
-        "title": "Deno: Add NPM package",
+        "title": "Add NPM package",
         "category": "Deno"
       }
     ],
